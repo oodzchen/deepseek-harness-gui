@@ -4,6 +4,12 @@
 
 这是一个 dsh bundle 插件，用于在原生 [Glimpse](https://github.com/hazat/glimpse) 窗口中打开现有的 dsh Web GUI。插件刻意保持轻量：不会重复实现聊天功能，也不会引入第二套 RPC 桥接——窗口只是直接打开已绑定的本地 Web 服务。
 
+## 界面截图
+
+在原生 Glimpse 窗口中运行的 dsh Web GUI：
+
+![deepseek-harness-gui 在原生 Glimpse 窗口中运行的效果](screenshots/Screenshot_20260819_024647.png)
+
 ## 安装
 
 将插件安装到 Web profile：

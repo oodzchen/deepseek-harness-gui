@@ -4,6 +4,12 @@
 
 A small dsh bundle that opens the existing dsh Web GUI in a native [Glimpse](https://github.com/hazat/glimpse) window. It intentionally contains no second chat implementation and no RPC bridge: the window navigates to the bound localhost Web server.
 
+## Screenshots
+
+The dsh Web GUI running inside a native Glimpse window:
+
+![deepseek-harness-gui running in a native Glimpse window](screenshots/Screenshot_20260819_024647.png)
+
 ## Install
 
 Install the package into the Web profile:
