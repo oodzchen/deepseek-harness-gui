@@ -1,0 +1,9 @@
+# Replace the stock web flag provider so --gui is accepted by dsh web.
+# Install this package into the web profile with:
+#   dsh plugin --profile web add <this-package>
+- id: web-startup
+  disabled: true
+
+- insert:
+    - id: glimpse-gui
+      name: deepseek-harness-gui

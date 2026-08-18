@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# TypeScript/build output
+lib/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Runtime/build artifacts
+.glimpse-build-skipped
+*.log
+.tmp/
+tmp/
+.cache/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
